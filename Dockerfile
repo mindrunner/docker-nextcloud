@@ -1,7 +1,7 @@
 FROM nextcloud:latest
 
 RUN apt-get update -yqq \
-    && apt-get upgrade -y
+    && apt-get upgrade -y \
     && apt-get install -y \
   tesseract-ocr \
   tesseract-ocr-deu \
