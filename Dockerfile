@@ -1,4 +1,4 @@
-FROM nextcloud:20
+FROM nextcloud:latest
 
 RUN apt-get update -yqq && apt-get install -y \
   tesseract-ocr \
